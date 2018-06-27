@@ -1,0 +1,14 @@
+{
+  "name": "ang_test",
+  "version": "1.0.0",
+  "description": "Test for refreshing angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Ash",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.min.js"></script>
+<script src="./test.js"></script>
+
+<div ng-app="testFilters">
+  <div ng-controller="personController">
+    <div ng-repeat = "names in  friends | filterName:A">
+      <p>
+        {{names}}
+      </p>
+    </div>
+  </div>
+</div>
